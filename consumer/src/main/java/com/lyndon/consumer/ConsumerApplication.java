@@ -11,7 +11,12 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
-
+/* @Author lyn
+ * @ModuleName consumer
+ * @Description //TODO
+ * @Parme  
+ * @return 
+**/
 @EnableEurekaServer
 @SpringBootApplication
 @EnableFeignClients
