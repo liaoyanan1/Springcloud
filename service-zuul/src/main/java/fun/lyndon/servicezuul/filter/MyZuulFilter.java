@@ -48,7 +48,7 @@ public class MyZuulFilter extends ZuulFilter {
         Object token = request.getParameter("password");
         if (token==null){
             //设置
-          //  requestContext.setSendZuulResponse(false);
+            requestContext.setSendZuulResponse(false);
             try {
                 requestContext.getResponse().getWriter().write("not found password!");
 
