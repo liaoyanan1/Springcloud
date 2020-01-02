@@ -15,4 +15,5 @@ public class ConfigEurekaClientserviceApplication {
         SpringApplication.run(ConfigEurekaClientserviceApplication.class, args);
     }
 
+
 }
